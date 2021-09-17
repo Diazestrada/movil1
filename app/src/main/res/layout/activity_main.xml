@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnEmpleado"
+        android:layout_width="125dp"
+        android:layout_height="62dp"
+        android:text="Enviar Empleados"
+        android:onClick="onClick"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/btnEmpresa"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:text="Enviar Empresa"
+        android:onClick="onClick"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="281dp" />
+</android.support.constraint.ConstraintLayout>
